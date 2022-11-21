@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            table
+            {
+                width:100%;
+            }
+            td
+            {
+                height:50px;
+                width:50px;
+            }
+        </style>
+    </head>
+    <body>
+        <form method="POST" action="/predict">
+            <table>
+                <tr>
+                    <td>
+                        <label for="age">Age :</label>
+                    </td>
+                    <td>
+                        <input type="number" name="age" step=0.1/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">Gender :</label>
+                    </td>
+                    <td>
+                        <input type="number" name="gender" step=0.1/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="total_bilirubin">Total Bilirubin :</label>
+                    </td>
+                    <td>
+                        <input type="number" name="total_bilirubin" step=0.1/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="alkaline_phosphotase">Alkaline Phosphotase :</label>
+                    </td>
+                    <td>
+                        <input type="number" name="alkaline_phosphotase" step=0.1/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="alamine_aminotransferase">Alamine Aminotransferase :</label>
+                    </td>
+                    <td>
+                        <input type="number" name="alamine_aminotransferase" step=0.1/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="aspartate_aminotransferase">Aspartate Aminotransferase :</label>
+                    </td>
+                    <td>
+                        <input type="number" name="aspartate_aminotransferase" step=0.1/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="total_protiens">Total Protiens :</label>
+                    </td>
+                    <td>
+                        <input type="number" name="total_protiens" step=0.1/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="albumin">Albumin :</label>
+                    </td>
+                    <td>
+                        <input type="number" name="albumin" step=0.1/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="albumin_and_globulin_ratio">Albumin and Globulin Ratio :</label>
+                    </td>
+                    <td>
+                        <input type="number" name="albumin_and_globulin_ratio" step=0.1/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <button type="submit">Diagonise</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body 
+</html>
